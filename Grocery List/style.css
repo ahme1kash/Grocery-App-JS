@@ -87,3 +87,41 @@ body{
     font-size:1.1em;
     margin-left:1em ;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+    .container .box {
+        position: relative;
+        width: 380px;
+
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+    .container .box #grocery {
+
+        border-radius: 0em;
+        display: flex;
+
+
+    }
+
+    .grocery-items {
+        width: 90%;
+
+        height: 20em;
+
+
+
+    }
+
+    .add-new {
+
+        padding: 2px;
+        margin-left: 4px;
+        height: 2.7em;
+        width:7em;
+        font-size: 0.8em;
+    }
+}
