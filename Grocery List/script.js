@@ -15,6 +15,7 @@ btnElem.addEventListener('click',(e)=>{
     let item = inputElem.value;
     listElem.textContent=item;
     listElem.style.paddingLeft="1em";
+
     listElem.classList.add("item",`item${count}`)
     inputElem.value = "";
 
@@ -24,15 +25,16 @@ btnElem.addEventListener('click',(e)=>{
     let removeElem = document.createElement("span");
     removeElem.innerHTML = "&#128465;" ;
     removeElem.classList.add('remove-item')
-    removeElem.style.position = "absolute";
+
     removeElem.style.right = "10%";
     removeElem.style.cursor = "pointer"
-    removeElem.style.marginTop = "-0.4em";
+    removeElem.style.marginTop = "-1.7em";
+    removeElem.style.marginRight = "1em";
     removeElem.style.fontSize = "1.4em";
+    removeElem.style.display = "flex";
+    removeElem.style.justifyContent = "right";
 
 
-
-    removeElem.style.tool = "default"
     if(listElem.textContent.length >0 && listElem.textContent.length <30) {
         // console.log(listElem.textContent.length )
         if(grocery_items.includes(listElem.textContent.trim())){

@@ -13,7 +13,7 @@ body{
 }
 .container{
     position:relative;
-    width:400px;
+    width:500px;
     display:flex;
     flex-direction:column;
     gap:40px;
@@ -27,7 +27,7 @@ body{
 
 {
     position:relative;
-    width:400px;
+    width:500px;
     background-color: rgba(255, 145, 24, 0.7);
     padding:20px;
     box-shadow:5px 5px 5px 0px rgba(0,0,0,0.1)
@@ -76,17 +76,14 @@ body{
     list-style-type:none;
 }
 .item{
-    font-size:1.6em;
+    font-size:1.7em;
     color: #000000;
-    line-height:2.5;
-    /*scale:1.5;*/
+    line-height:1.9;
 
 }
 #grocery-list {
-    width:13em;
+    width:18em;
     height:1.8em;
     font-size:1.1em;
-    font-family:Dialog;
     margin-left:1em ;
-
 }
